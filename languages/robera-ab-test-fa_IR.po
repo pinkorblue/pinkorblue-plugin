@@ -1,0 +1,675 @@
+# Copyright (C) 2019 
+# This file is distributed under the same license as the robera-ab-test plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: robera-ab-test\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rebora-ab-test-"
+"plugin\n"
+"POT-Creation-Date: 2019-12-25T14:43:29+00:00\n"
+"PO-Revision-Date: 2019-12-25 14:05+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Domain: robera-ab-test\n"
+
+#. Plugin Name of the plugin
+#: src/templates/account-page.php:13 src/templates/my-tests-page.php:143
+msgid "Pink or Blue A/B Test"
+msgstr "A/B تست صورتی یا آبی"
+
+#. Description of the plugin
+msgid ""
+"This Plugin helps admin to create ab test to analyse users' behavior toward "
+"different contents and user interfaces."
+msgstr ""
+"این افزونه با فراهم کردن امکان تست A/B برای مدیر سایت، به وی کمک می‌کند رفتار "
+"کاربران را در قبال محتواها و رابط‌های کاربری مختلف مورد تحلیل قرار دهد."
+
+#: src/admin-page.php:446
+msgid "Pink or Blue"
+msgstr "صورتی یا آبی"
+
+#: src/admin-page.php:448
+msgid "My Tests"
+msgstr "تست‌های من"
+
+#: src/admin-page.php:448
+msgid "All Tests"
+msgstr "همه‌ تست‌ها"
+
+#: src/admin-page.php:451
+msgid "Add A/B test"
+msgstr "اضافه کردن A/B تست جدید"
+
+#: src/admin-page.php:451
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: src/admin-page.php:452 src/templates/edit-test-page.php:22
+msgid "Edit Test"
+msgstr "ویرایش تست"
+
+#: src/admin-page.php:455
+msgid "Account"
+msgstr "حساب کاربری"
+
+#: src/admin-page.php:457
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: src/admin-page.php:500
+msgid "Running %s test failed"
+msgstr "اجرای تست %s با خطا مواجه شد"
+
+#: src/admin-page.php:501
+msgid ""
+"There is running test on this content. You can't run multiple test on a "
+"content."
+msgstr ""
+"تست دیگری بر روی این محتوا در حال اجراست. شما نمی‌توانید به طور همزمان چند "
+"تست روی یک محتوا اجرا کنید."
+
+#: src/admin-page.php:530
+msgid "Registering email was successfull."
+msgstr "ثبت ایمیل با موفقیت انجام شد."
+
+#: src/admin-page.php:531
+msgid "Registering email was not successfull."
+msgstr "ثبت ایمیل انجام نشد."
+
+#: src/admin-page.php:532
+msgid "Verifying email was successfull."
+msgstr "فعال‌سازی ایمیل با موفقیت انجام شد."
+
+#: src/admin-page.php:533
+msgid "Verifying email was not successfull."
+msgstr "فعال‌سازی ایمیل انجام نشد."
+
+#: src/admin-page.php:534
+msgid "Your verification code is expired."
+msgstr "کد فعالسازی منقضی شده است."
+
+#: src/admin-page.php:535
+msgid "Your verification code is not valid."
+msgstr "کد فعالسازی صحیح نیست."
+
+#: src/admin-page.php:536
+msgid "Payment was not successfull."
+msgstr "پرداخت موفق نبود."
+
+#: src/admin-page.php:537
+msgid "Payment succeeded. Reference ID is %s."
+msgstr "پرداخت با موفقیت انجام شد. کد رهگیری: %s."
+
+#: src/models/ab-test.php:43
+msgid "You can't run multiple test on a content."
+msgstr "تست دیگری روی محتوا در حال اجراست."
+
+#: src/models/ab-test.php:51
+msgid "You should complete the test info first."
+msgstr "لطفا ابتدا اطلاعات تست را تکمیل کنید."
+
+#: src/templates/account-page.php:28
+msgid "Dear %s, "
+msgstr "%s عزیز، "
+
+#: src/templates/account-page.php:30
+msgid ""
+"After starting your first test, your %s plan will start and work for %s days."
+msgstr ""
+"بعد از شروع کردن اولین تست، اشتراک %s شما آغاز می‌شود و تا %s روز فعال خواهد "
+"بود."
+
+#: src/templates/account-page.php:39
+msgid "your plugin is active for %1$s days."
+msgstr "افزونه‌ی شما تا %1$sروز دیگر فعال است."
+
+#: src/templates/account-page.php:41
+msgid "your plugin is active for one day."
+msgstr "افزونه‌ی شما تا یک روز دیگر فعال است."
+
+#: src/templates/account-page.php:44
+msgid ""
+"your plugin has been expired. To continue using Pink or Blue please purchase "
+"a plan."
+msgstr ""
+"زمان استفادهٔ شما از افزونه تمام شده است، اگر می‌خواهید به استفاده از افزونهٔ "
+"صورتی یا آبی ادامه دهید، لطفا اشتراک افزونه را خریداری کنید."
+
+#: src/templates/account-page.php:51
+msgid ""
+"To sibscribe to Pink or Blue plugin, you should verify your email first."
+msgstr ""
+"برای خرید اشتراک افزونه‌ی صورتی یا آبی، ابتدا باید ایمیل خود را تأیید کنید."
+
+#: src/templates/account-page.php:67
+msgid ""
+"Enter the verification code that sent to %1$s. To change your email or "
+"resend verification code "
+msgstr ""
+"لطفا کد اعتبار سنجی که به ایمیل %1$s فرستاده شده‌است را وارد کنید. برای عوض "
+"کردن آدرس ایمیل یا ارسال مجدد کد، "
+
+#: src/templates/account-page.php:74
+msgid "click here."
+msgstr "این جا کلیک کنید."
+
+#: src/templates/account-page.php:79
+msgid "Verification Code"
+msgstr "کد اعتبارسنجی"
+
+#: src/templates/account-page.php:82 src/templates/edit-test-page.php:228
+#: src/templates/edit-test-page.php:264 src/templates/settings-page.php:30
+msgid "Submit"
+msgstr "ذخیره"
+
+#: src/templates/account-page.php:92
+msgid "To purchase %s plan for %s Tomans,"
+msgstr "برای خرید اشتراک %s به قیمت %s تومان،"
+
+#: src/templates/account-page.php:93
+msgid "click on this link."
+msgstr " بر روی این پیوند کلیک کنید."
+
+#: src/templates/account-page.php:93
+msgid " If your plugin is active now, perchase will extend expiration date."
+msgstr ""
+" اگر افزونه‌ی شما در حال حاضر فعال است، با خرید اشتراک زمان استفاده‌ی شما از "
+"افزونه تمدید خواهد شد."
+
+#: src/templates/account-page.php:116
+msgid "Please enter valid email."
+msgstr "لطفا یک ایمیل معتبر وارد کنید."
+
+#: src/templates/common.php:16
+msgid "Are you sure to continue?"
+msgstr "برای ادامه مطمئن هستید؟"
+
+#: src/templates/common.php:19
+msgid "Cancel"
+msgstr "لغو"
+
+#: src/templates/common.php:32
+msgid ""
+"Starting the A/B test test will effect how users see the target page.\n"
+"            <br />\n"
+"            Your test will be running for up to %1$s days and you can stop "
+"it whenever you want.\n"
+"            "
+msgstr ""
+"شروع تست منجر به ایجاد تغییر در محتوای نمایش داده شده به کاربرانتان خواهد "
+"شد. \n"
+" <br/> تست شما به مدت %1$s روز اجرا خواهد شد و شما هر وقت که بخواهید "
+"می‌توانید اجرای آن را متوقف کنید."
+
+#: src/templates/common.php:39
+msgid "After starting this test, your %s plan will start and work for %s days."
+msgstr ""
+"بعد از شروع کردن این تست، اشتراک %s شما آغاز می‌شود و تا %s روز فعال خواهد "
+"بود."
+
+#: src/templates/common.php:43
+msgid "Confirm Starting Test"
+msgstr "تایید شروع تست"
+
+#: src/templates/common.php:47
+msgid "Start Test"
+msgstr "شروع تست"
+
+#: src/templates/common.php:57
+msgid "Contact us whenever you need:"
+msgstr "ما همیشه‌ پاسخگوی شما هستیم: "
+
+#: src/templates/edit-test-page.php:9
+msgid ""
+"Select the metrics that you want to use to determine which variant is better:"
+msgstr ""
+"معیاری را که می‌خواهید برای ارزیابی عملکرد نمونه‌های مختلف ایجاد شده استفاده "
+"کنید انتخاب کنید."
+
+#: src/templates/edit-test-page.php:17 src/templates/my-tests-page.php:181
+msgid "Add New Test"
+msgstr "اضافه کردن تست جدید"
+
+#: src/templates/edit-test-page.php:19
+msgid ""
+"Check PINKorBLUE user guide on <a href=\"https://medium.com/@pinkorblue.info/"
+"pink-or-blue-a-simple-tool-for-a-b-testing-in-wordpress-475471428b74\"> "
+"Medium </a> and <a href=\"https://www.youtube.com/watch?v=oz-6YkeIj-Q\"> "
+"YouTube</a>."
+msgstr ""
+"نحوه‌ی استفاده از افزونه‌ی صورتی یا آبی را می‌توانید از طریق<a href=\"https://"
+"virgool.io/Rooberah/%D8%B5%D9%88%D8%B1%D8%AA%DB%8C-%DB%8C%D8%A7-"
+"%D8%A2%D8%A8%DB%8C%D8%9B-ab-test-%D8%A8%D9%87-%D9%87%D9%85%DB%8C%D9%86-"
+"%D8%B1%D8%A7%D8%AD%D8%AA%DB%8C-hm0l18aksitr\"> ویرگول </a> و <a href="
+"\"https://www.youtube.com/watch?v=oz-6YkeIj-Q\"> YouTube </a>ببینید."
+
+#: src/templates/edit-test-page.php:32
+msgid "Test name"
+msgstr "نام تست"
+
+#: src/templates/edit-test-page.php:36
+msgid "Test description"
+msgstr "توضیحات تست"
+
+#: src/templates/edit-test-page.php:43
+msgid "Select the content type you want to test on:"
+msgstr "نوع محتوایی را که قصد ایجاد تست بر روی آن دارید انتخاب کنید:"
+
+#: src/templates/edit-test-page.php:48
+msgid "Page or Post"
+msgstr "صفحه یا مطلب"
+
+#: src/templates/edit-test-page.php:54 src/templates/edit-test-page.php:767
+msgid "Product"
+msgstr "محصول"
+
+#: src/templates/edit-test-page.php:67 src/templates/edit-test-page.php:87
+#: src/templates/edit-test-page.php:100
+msgid "Test Object:"
+msgstr "محتوای مورد تست:"
+
+#: src/templates/edit-test-page.php:72 src/templates/edit-test-page.php:106
+msgid "Search posts and pages ..."
+msgstr "صفحات و مطالب را جست و جو کنید ..."
+
+#: src/templates/edit-test-page.php:91
+msgid "Search products ..."
+msgstr "محصولات را جست و جو کنید ..."
+
+#: src/templates/edit-test-page.php:121
+msgid "Create your new variant to test against the original:"
+msgstr "نمونه‌ی جدید خود از محتوا را برای تست در مقابل نمونه‌ی اصلی ایجاد کنید:"
+
+#: src/templates/edit-test-page.php:143
+msgid "of users see this."
+msgstr "از کاربران می‌بینند."
+
+#: src/templates/edit-test-page.php:160
+msgid "Conversion goals"
+msgstr "معیار‌های ارزیابی"
+
+#: src/templates/edit-test-page.php:163
+msgid ""
+"Counts the number of times that the targeted page below, is visited. It's a "
+"suitable conversion goal to find out how many times people have clicked on a "
+"link, leading to a page."
+msgstr ""
+"تعداد بازدید‌های صفحه‌ای که در زیر مشخص شده‌است را می‌شمارد. این معیار برای "
+"شمارش دفعاتی که بازدید‌کننده‌ها بر روی لینک صفحه‌ی مشخص شده در زیر کلیک کرده‌اند "
+"مناسب است."
+
+#: src/templates/edit-test-page.php:166
+msgid "Visit a page"
+msgstr "بازدید از صفحه"
+
+#: src/templates/edit-test-page.php:171
+msgid "Search all over your site to select target page ..."
+msgstr "کل محتواهای سایتتان را برای انتخاب صفحه‌ی هدف جست‌وجو کنید ..."
+
+#: src/templates/edit-test-page.php:178
+msgid "Shows the number of items of the targeted product below, bought."
+msgstr "تعداد اقلام خریداری شده از محصولی که در زیر مشخص شده‌است را نشان می‌دهد‫.‬"
+
+#: src/templates/edit-test-page.php:181 src/templates/edit-test-page.php:212
+msgid "Product items bought"
+msgstr "تعداد محصول خریداری شده"
+
+#: src/templates/edit-test-page.php:186
+msgid "Search products for the target product ..."
+msgstr "محصولات خود را برای انتخاب محصول هدف جست‌وجو کنید ..."
+
+#: src/templates/edit-test-page.php:192
+msgid ""
+"Measures the 'Total Revenue' of your E-Commerce. It's a useful metric for "
+"tests created on pages, specially the main page."
+msgstr ""
+"درآمد کلی شما را محاسبه می‌کند‫.‬ این یک معیار اندازه‌گیری مفید برای تست‌هایی است "
+"که بر روی صفحات طراحی شده‌اند، به خصوص صفحه اصلی‫.‬"
+
+#: src/templates/edit-test-page.php:195
+msgid "Revenue"
+msgstr "درآمد"
+
+#: src/templates/edit-test-page.php:199 src/templates/edit-test-page.php:221
+msgid ""
+"Measures the average time a client spends to visit the test object and "
+"interact with that. The timer stops whenever the visitor switches between "
+"browser tabs."
+msgstr ""
+"میانگین زمانی که کاربر برای بررسی محتوای مورد تست صرف می‌کند را محاسبه می‌کند. "
+"هنگامی که کاربر تب مرورگر را عوض کند یا ببندد، زمان متوقف می‌شود‪.‬"
+
+#: src/templates/edit-test-page.php:202 src/templates/edit-test-page.php:224
+msgid "Average stay time on the test object"
+msgstr "میانگین زمان ماندن در  محتوای مورد تست"
+
+#: src/templates/edit-test-page.php:208
+msgid "Shows the number of items of the test product bought."
+msgstr "تعداد اقلام خریداری شده از محصول مورد تست را نشان می‌دهد‫.‬"
+
+#: src/templates/edit-test-page.php:215
+msgid ""
+"Counts the number of times that the test product page is visited. It's a "
+"suitable conversion goal to find out how many times people have clicked on a "
+"link, leading to a product."
+msgstr ""
+"تعداد دفعاتی که صفحه‌ی کالای مورد تست بازدید شده‌است را می‌شمارد. این یک معیار "
+"ارزیابی مناسب برای شمارش دفعاتی است که کاربران بر روی لینک محصول مورد تست "
+"کلیک کرده‌اند."
+
+#: src/templates/edit-test-page.php:218
+msgid "Visit product page"
+msgstr "بازدید از صفحه محصول"
+
+#: src/templates/edit-test-page.php:229
+msgid "Submit & Run"
+msgstr "ذخیره و اجرا"
+
+#: src/templates/edit-test-page.php:239
+msgid "Enter New Variant Information"
+msgstr "اطلاعات نمونه‌ی جدید را وارد کنید."
+
+#: src/templates/edit-test-page.php:244 src/templates/edit-test-page.php:245
+msgid "Variant name"
+msgstr "نام نمونه"
+
+#: src/templates/edit-test-page.php:248
+msgid "Start editing from"
+msgstr "آغاز تغییر از"
+
+#: src/templates/edit-test-page.php:252
+msgid "Copy of the Original"
+msgstr "رونوشت از نمونه اصلی"
+
+#: src/templates/edit-test-page.php:256
+msgid "Empty"
+msgstr "خالی"
+
+#: src/templates/edit-test-page.php:270
+msgid "Something went wrong"
+msgstr "مشکلی وجود دارد"
+
+#: src/templates/edit-test-page.php:320 src/templates/my-tests-page.php:123
+msgid "Edit"
+msgstr "تغییر"
+
+#: src/templates/edit-test-page.php:320 src/templates/my-tests-page.php:124
+msgid "Delete"
+msgstr "حذف"
+
+#: src/templates/edit-test-page.php:322
+msgid "To edit original page, use pages admin, menue."
+msgstr "برای تغییر نمونه‌ی اصلی از منو ادمین استفاده کنید."
+
+#: src/templates/edit-test-page.php:485
+msgid "Variants for "
+msgstr "نمونه‌های"
+
+#: src/templates/edit-test-page.php:509
+msgid "Test name must have a value."
+msgstr "نام تست نمی‌تواند خالی باشد."
+
+#: src/templates/edit-test-page.php:517
+msgid "You should select a target for visit a page conversion goal."
+msgstr "شما باید یک صفحه هدف برای معیار ارزیابی بازدید از صفحه انتخاب کنید."
+
+#: src/templates/edit-test-page.php:525
+msgid "You should select a product for product item bought conversion goal."
+msgstr ""
+"شما باید یک محصول برای معیر ارزیابی تعداد محصول خریداری شده انتخاب کنید."
+
+#: src/templates/edit-test-page.php:532
+msgid "Please select a conversion goal."
+msgstr "لطفا یک معیار ارزیابی برای تست خود انتخاب کنید."
+
+#: src/templates/edit-test-page.php:539
+msgid "Number of variants should be at least two."
+msgstr "تعداد نمونه‌های مورد نیاز از محتوای مورد تست حداقل ۲ است"
+
+#: src/templates/edit-test-page.php:543
+msgid "Number of variants should be at most {0}."
+msgstr "تعداد نمونه‌های مورد نیاز از محتوای مورد تست حداکثر {0} می‌تواند باشد."
+
+#: src/templates/edit-test-page.php:583
+msgid "Variant name must have a value"
+msgstr "نام نمونه نمی‌تواند خالی باشد."
+
+#: src/templates/edit-test-page.php:590
+msgid "You should select how to initiate variant"
+msgstr "شما باید نحوه‌ی شروع ساخت نمونه جدید را مشخص کنید."
+
+#: src/templates/edit-test-page.php:634
+msgid "No Result"
+msgstr "نتیجه‌ای یافت نشد."
+
+#: src/templates/edit-test-page.php:661 src/templates/edit-test-page.php:763
+msgid "Page"
+msgstr "صفحه"
+
+#: src/templates/edit-test-page.php:665 src/templates/edit-test-page.php:771
+msgid "Post"
+msgstr "مطلب"
+
+#: src/templates/edit-test-page.php:699 src/templates/edit-test-page.php:741
+msgid "Variants for {0}"
+msgstr "نمونه‌های {0}"
+
+#: src/templates/edit-test-page.php:700 src/templates/edit-test-page.php:742
+msgid "Original variant"
+msgstr "نمونه اصلی"
+
+#: src/templates/my-tests-page.php:21
+msgid "Average revenue"
+msgstr "متوسط درآمد"
+
+#: src/templates/my-tests-page.php:22
+msgid "Percentage visits of target"
+msgstr "درصد بازدید از صفحه هدف"
+
+#: src/templates/my-tests-page.php:23
+msgid "Average stay on test object"
+msgstr "میانگین زمان ماندن در  محتوای مورد تست"
+
+#: src/templates/my-tests-page.php:24
+msgid "Average number of items bought"
+msgstr "متوسط تعداد محصول خریداری شده"
+
+#: src/templates/my-tests-page.php:25
+msgid "Percentage visits of target product"
+msgstr "درصد بازدید از محصول هدف"
+
+#: src/templates/my-tests-page.php:56
+msgid "Page test"
+msgstr "تست صفحه"
+
+#: src/templates/my-tests-page.php:58
+msgid "Product test"
+msgstr "تست محصول"
+
+#: src/templates/my-tests-page.php:61
+msgid "Test object:"
+msgstr "محتوای مورد تست:"
+
+#: src/templates/my-tests-page.php:65
+msgid "Description: %1$s"
+msgstr "توضیح: %1$s "
+
+#: src/templates/my-tests-page.php:68
+msgid "This test will be running for %s."
+msgstr "این تست طی %s آینده در حال اجرا است."
+
+#: src/templates/my-tests-page.php:76
+msgid "Conversion goal: %1$s"
+msgstr "معیار ارزیابی: %1$s"
+
+#: src/templates/my-tests-page.php:79
+msgid "Target: %s"
+msgstr "صفحه‌ی هدف: %s"
+
+#: src/templates/my-tests-page.php:89
+msgid "Variant"
+msgstr "نمونه"
+
+#: src/templates/my-tests-page.php:90
+msgid "% of users"
+msgstr "% از کاربران"
+
+#: src/templates/my-tests-page.php:92
+msgid "Variant visit"
+msgstr "بازدید‌ نمونه"
+
+#: src/templates/my-tests-page.php:116 src/templates/my-tests-page.php:120
+msgid "Start"
+msgstr "شروع"
+
+#: src/templates/my-tests-page.php:128
+msgid "Stop"
+msgstr "توقف"
+
+#: src/templates/my-tests-page.php:148
+msgid "Hi %1$s!"
+msgstr "سلام %1$s!"
+
+#: src/templates/my-tests-page.php:151
+msgid "This is Pink or Blue A/B test plugin!"
+msgstr "این صفحهٔ افزونهٔ A/B تست صورتی یا آبی است."
+
+#: src/templates/my-tests-page.php:155
+msgid ""
+"After starting your first test you will have %s days trial to use the plugin."
+msgstr ""
+"بعد از شروع کردن اولین تست، شما %s روز می‌توانید از نسخهٔ آزمایشی افزونه "
+"استفاده کنید."
+
+#: src/templates/my-tests-page.php:158
+msgid "To add new A/B test click on Add New Test button bellow."
+msgstr ""
+"برای اضافه کردن یک A/B تست جدید، بر روی دکمه اضافه کردن تست جدید کلیک کنید."
+
+#: src/templates/my-tests-page.php:160
+msgid "Hope it can help you discover your users' preferences."
+msgstr ""
+"امیدواریم این افزونه بتواند به شما کمک کند تا سلیقه‌ی کاربرانتان را به خوبی "
+"کشف کنید."
+
+#: src/templates/my-tests-page.php:166
+msgid ""
+"Your trial is finished if you want to continue using Pink or Blue you can "
+"use My Acount page."
+msgstr ""
+"زمان استفادهٔ آزمایشی شما تمام شده است، اگر می‌خواهید به استفاده از افزونهٔ "
+"صورتی یا آبی ادامه دهید از صفحهٔ اکانت من اقدام کنید."
+
+#: src/templates/my-tests-page.php:185
+msgid "Unbegun Tests"
+msgstr "تست‌های شروع نشده"
+
+#: src/templates/my-tests-page.php:188
+msgid "You don't have any unbegun tests."
+msgstr "شما تست شروع نشده‌ای ندارید."
+
+#: src/templates/my-tests-page.php:194
+msgid "Running Tests"
+msgstr "تست‌های در حال اجرا"
+
+#: src/templates/my-tests-page.php:197
+msgid "You don't have any running tests."
+msgstr "شما تست درحال اجرایی ندارید."
+
+#: src/templates/my-tests-page.php:203
+msgid "Finished Tests"
+msgstr "تست‌های پایان یافته"
+
+#: src/templates/my-tests-page.php:206
+msgid "You don't have any finished tests."
+msgstr "شما تست پایان‌یافته‌ای ندارید."
+
+#: src/templates/my-tests-page.php:215
+msgid "Confirm Stopping Test"
+msgstr "تایید توقف تست"
+
+#: src/templates/my-tests-page.php:216
+msgid "After stopping A/B test you can't start it again."
+msgstr "پس از توقف اجرای تست امکان اجرای مجدد آن وجود ندارد."
+
+#: src/templates/my-tests-page.php:219
+msgid "Stop Test"
+msgstr "توقف تست"
+
+#: src/templates/my-tests-page.php:226
+msgid "Confirm Deleting Test"
+msgstr "تایید حذف تست"
+
+#: src/templates/my-tests-page.php:227
+msgid "After deleting A/B test all its content will be lost."
+msgstr "پس از حذف تست، تمامی محتوای آن از دست خواهد رفت."
+
+#: src/templates/my-tests-page.php:230
+msgid "Delete Test"
+msgstr "حذف تست"
+
+#: src/templates/settings-page.php:11
+msgid "Pink or Blue Settings"
+msgstr "تنظیمات صورتی یا آبی"
+
+#: src/templates/settings-page.php:19
+msgid ""
+"By default we only support some fields in A/B testing like `title`, "
+"`content`, `excerpt`, `featured_image`, and `product_gallery`. If your "
+"website uses another metas that you want to A/B test on them select them "
+"bellow."
+msgstr ""
+"به صورت پیش‌فرض، ما فقط مواردی مثل «عنوان»، «متن»، «چکیده»، «عکس شاخص»، و "
+"«گالری تصویر محصول» را در تست A/B دخیل می‌کنیم. اگر سایت شما از meta های "
+"دیگری استفاده می‌کند که می‌خواهید روی آنها هم تست A/B انجام شود، آن‌ها را در "
+"لیست زیر انتخاب کنید."
+
+#: src/utils/post-utils.php:63
+msgid "Post creation failed, could not find original post: %1$s"
+msgstr "ایجاد پست ناتمام ماند. پست اصلی یافت نشد: %1$s"
+
+#~ msgid "Your 14 days trial will start after starting this test. <br/> <br/>"
+#~ msgstr ""
+#~ "استفادهٔ آزمایشی ۱۴ روزهٔ شما با شروع کردن این تست آغاز می‌شود.\n"
+#~ " <br/> <br/>"
+
+#~ msgid ""
+#~ "after starting your first test you will have 14 days trial to use the "
+#~ "plugin."
+#~ msgstr ""
+#~ "بعد از شروع کردن اولین تست، می‌توانید ۱۴ روز از نسخهٔ آزمایشی افزونه "
+#~ "استفاده کنید."
+
+#~ msgid "To purchase one month subscription for $4.99, "
+#~ msgstr "برای خرید اشتراک یک‌ماهه به قیمت ۲۵۰۰۰ تومان، "
+
+#~ msgid "Check PINKorBLUE user guide on "
+#~ msgstr "نحوه‌ی استفاده از افزونه‌ی صورتی یا آبی را در"
+
+#~ msgid "Medium"
+#~ msgstr "ویرگول"
+
+#~ msgid " and "
+#~ msgstr " و "
+
+#~ msgid "4.99"
+#~ msgstr "25000"
+
+#~ msgid "5"
+#~ msgstr "۲۵۰۰۰"
+
+#~ msgid ""
+#~ "Dear %1$s!, Enter your email and verify it to perchace one of Pink or "
+#~ "Blue plans."
+#~ msgstr ""
+#~ "%1$s عزیز، لطفا برای خرید یکی از طرح‌های اشتراک افزونه‌ی صورتی یا آبی آدرس "
+#~ "ایمیل خود را وارد کرده  و سپس کد اعتبارسنجی ارسال شده به ایمیلتان را وارد "
+#~ "کنید."
+
+#~ msgid "Your account activated successfully!"
+#~ msgstr "حساب کاربری شما با موفقیت فعال شد."
