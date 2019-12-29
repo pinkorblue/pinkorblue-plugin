@@ -48,7 +48,7 @@ if (!defined('ROBERA_AB_PLUGIN_PATH')) {
 
 try {
     require 'plugin-update-checker/plugin-update-checker.php';
-    $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    $myUpdateChecker = \Puc_v4_Factory::buildUpdateChecker(
         'https://github.com/pinkorblue/pinkorblue-plugin',
         __FILE__,
         'pinkorblue-ab-test'
