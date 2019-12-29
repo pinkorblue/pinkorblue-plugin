@@ -3,7 +3,6 @@
  * robera-ab-test
  *
  * @package   Pink or Blue A/B Test
- * @version   v0.1.9.1
  * @author    Erfan Loghmani
  * @copyright 2019 Rebora
  * @license   GPL-2.0-or-later
@@ -12,6 +11,7 @@
  * Plugin Name:       Pink or Blue A/B Test
  * Description:       This Plugin helps admin to create ab/test to analyse users' behavior toward different contents and user interfaces.
  * Text Domain: robera-ab-test
+ * Version: 0.1.9.2
  */
 
 namespace Robera\AB;
