@@ -9,7 +9,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Pink or Blue A/B Test
- * Description:       This Plugin helps admin to create ab test to analyse users' behavior toward different contents and user interfaces.
+ * Description:       This Plugin helps admin to create ab/test to analyse users' behavior toward different contents and user interfaces.
  * Text Domain: robera-ab-test
  */
 
