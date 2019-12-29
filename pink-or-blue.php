@@ -3,7 +3,7 @@
  * robera-ab-test
  *
  * @package   Pink or Blue A/B Test
- * @version   0.1.9
+ * @version   v0.1.9.1
  * @author    Erfan Loghmani
  * @copyright 2019 Rebora
  * @license   GPL-2.0-or-later
