@@ -4,7 +4,7 @@ Donate link:
 Tags: abtest, woocommerce
 Requires at least: 4.0
 Tested up to: 5.3.1
-Stable tag: 0.1.9.3
+Stable tag: 0.1.9.4
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -35,6 +35,9 @@ e.g.
 
 == Changelog ==
 
+
+= 0.1.9.4 =
+* Add changelog.md
 
 = 0.1.9.3 =
 * Rename readme file
