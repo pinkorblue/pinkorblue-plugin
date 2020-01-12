@@ -109,7 +109,7 @@ class PinkOrBlueClient
 
     public static function getSiteName()
     {
-        return site_url() . get_option(RoberaABPlugin::$INSTALLATION_RANDOM_VALUE_OPTION_NAME);
+        return site_url(null, '', 'http') . get_option(RoberaABPlugin::$INSTALLATION_RANDOM_VALUE_OPTION_NAME);
     }
 
     public static function getInteractionAuth($interaction_id)

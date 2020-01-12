@@ -1,4 +1,7 @@
 
+= 0.1.11 =
+* Fix http/https problem in site_name
+
 = 0.1.9.8 =
 * Move update checker to vendor
 

@@ -9,9 +9,9 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Pink or Blue A/B Test
- * Description:       This Plugin helps admin to create ab/test to analyse users' behavior toward different contents and user interfaces.
- * Text Domain:        robera-ab-test
- * Version:            0.1.9.9
+ * Description:       This Plugin helps admin to create ab test to analyse users' behavior toward different contents and user interfaces.
+ * Text Domain:       robera-ab-test
+ * Version:           0.1.11
  */
 
 namespace Robera\AB;
@@ -20,7 +20,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 if (!defined('ROBERA_AB_PLUGIN_PATH')) {
     define('ROBERA_AB_PLUGIN_PATH', dirname(__FILE__) . '/');
-    define('ROBERA_AB_PLUGIN_VERSION', '0.1.6');
+    define('ROBERA_AB_PLUGIN_VERSION', '0.1.11');
     define('ROBERA_AB_PLUGIN_FILE_PATH', __FILE__);
     define('AB_PLUGIN_PREFIX', 'robera');
 
