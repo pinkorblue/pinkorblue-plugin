@@ -201,10 +201,10 @@ class RoberaABPlugin
     {
         register_post_status(RoberaABPlugin::$AB_POST_STATUS, array(
             'label'                     => 'Variant',
-            'public'                    => false,
+            'public'                    => (isset($_GET['elementor-preview']) || isset($_GET['preview_id'])) && current_user_can('edit_others_posts'),
             'exclude_from_search'       => true,
             'show_in_admin_all_list'    => false,
-            'show_in_admin_status_list' => true,
+            'show_in_admin_status_list' => false,
             'post_type'                 => array('post', 'product', 'page'),
         ));
     }

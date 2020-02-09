@@ -1,3 +1,5 @@
+= 0.1.12 =
+* Fix elementor problem
 
 = 0.1.11 =
 * Fix http/https problem in site_name
