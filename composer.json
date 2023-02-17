@@ -2,7 +2,7 @@
     "require": {
         "illuminate/database": "5.5",
         "tareq1988/wp-eloquent": "dev-master",
-        "firebase/php-jwt": "^5.0"
+        "firebase/php-jwt": "^6.0"
     },
     "autoload": {
 	    "classmap": [
